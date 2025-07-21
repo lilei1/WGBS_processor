@@ -1,0 +1,5 @@
+sample_id,fastq_1,fastq_2,condition
+test_cancer_1,assets/test_data/fastq/test_cancer_1_R1.fastq.gz,assets/test_data/fastq/test_cancer_1_R2.fastq.gz,cancer
+test_cancer_2,assets/test_data/fastq/test_cancer_2_R1.fastq.gz,assets/test_data/fastq/test_cancer_2_R2.fastq.gz,cancer
+test_healthy_1,assets/test_data/fastq/test_healthy_1_R1.fastq.gz,assets/test_data/fastq/test_healthy_1_R2.fastq.gz,healthy
+test_healthy_2,assets/test_data/fastq/test_healthy_2_R1.fastq.gz,assets/test_data/fastq/test_healthy_2_R2.fastq.gz,healthy
