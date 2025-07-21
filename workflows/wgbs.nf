@@ -4,7 +4,11 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
-def summary_params = NfcoreSchema.paramsSummaryMap(workflow, params)
+// Simple parameter validation without NfcoreSchema
+def summary_params = [:]
+summary_params.input = params.input
+summary_params.outdir = params.outdir
+summary_params.genome = params.genome
 
 // Validate input parameters
 WorkflowWgbs.initialise(params, log)
