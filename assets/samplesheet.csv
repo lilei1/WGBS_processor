@@ -1,0 +1,7 @@
+sample_id,fastq_1,fastq_2,condition
+cancer_patient_1,/path/to/cancer_patient_1_R1.fastq.gz,/path/to/cancer_patient_1_R2.fastq.gz,cancer
+cancer_patient_2,/path/to/cancer_patient_2_R1.fastq.gz,/path/to/cancer_patient_2_R2.fastq.gz,cancer
+cancer_patient_3,/path/to/cancer_patient_3_R1.fastq.gz,/path/to/cancer_patient_3_R2.fastq.gz,cancer
+healthy_donor_1,/path/to/healthy_donor_1_R1.fastq.gz,/path/to/healthy_donor_1_R2.fastq.gz,healthy
+healthy_donor_2,/path/to/healthy_donor_2_R1.fastq.gz,/path/to/healthy_donor_2_R2.fastq.gz,healthy
+healthy_donor_3,/path/to/healthy_donor_3_R1.fastq.gz,/path/to/healthy_donor_3_R2.fastq.gz,healthy
